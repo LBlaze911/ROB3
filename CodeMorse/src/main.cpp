@@ -3,7 +3,7 @@
 #include <Arduino.h>
 
 #include "morse.h"
-morse m=morse(LED_BUILTIN);
+morse m = morse(LED_BUILTIN);
 
 void setup() {
   // put your setup code here, to run once:

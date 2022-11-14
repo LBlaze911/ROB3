@@ -103,6 +103,7 @@ void translator::translate(char c)
    }
 }
 
+//
 void translator::action(char *morse)
 {
    for (int i = 0; i < strlen(morse); i++)

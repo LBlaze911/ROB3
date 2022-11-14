@@ -1,5 +1,7 @@
 #include "morse.h"
 
+
+//On créer la classe translator
 class translator
 {
 private:

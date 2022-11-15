@@ -10,7 +10,12 @@
 
 
 void setup() {
+  Serial.begin(9600);
+  Serial.println("Entrez votre message")
+  cout << "message : " <<msg << endl
+  pinMode(LED_BUILTIN, OUTPUT);
 }
+
 
 void loop() {
 }

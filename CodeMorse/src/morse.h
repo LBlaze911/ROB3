@@ -1,3 +1,5 @@
+
+//On créer la classe morse
 class morse
 {
 private:

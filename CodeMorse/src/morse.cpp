@@ -16,6 +16,8 @@ morse::morse()
   _pin = LED_BUILTIN;
 }
 
+
+//Ces trois fonctions servent a allumer la led en fonction des caracteres donnés
 void morse::dot()
 {
   digitalWrite(_pin, HIGH);

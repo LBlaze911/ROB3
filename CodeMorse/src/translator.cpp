@@ -103,7 +103,7 @@ void translator::translate(char c)
    }
 }
 
-//
+//Cette partie permet de changer notre chaine de caractere en morse en allumage de la led grace aux fonction dot/dash/space
 void translator::action(char *morse)
 {
    for (int i = 0; i < strlen(morse); i++)

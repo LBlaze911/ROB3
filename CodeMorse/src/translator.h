@@ -1,5 +1,3 @@
-#include "morse.h"
-
 
 //On créer la classe translator qui contient les fonctions translate et translateword
 class translator

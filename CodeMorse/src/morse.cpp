@@ -1,8 +1,6 @@
-//morse class definition
-
-
 #include "morse.h"
-#include <Arduino.h>
+
+//morse class definition
 
 morse::morse(int pin)
 {

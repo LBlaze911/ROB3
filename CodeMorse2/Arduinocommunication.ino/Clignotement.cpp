@@ -49,6 +49,7 @@ void Clignotement::clignotementmillis(String x) {   ///Fonction permettant de co
 }
 
 void Clignotement::tiret() {   ///Fonction permettant de communiquer un tiret avec Arduino
+  
   digitalWrite(LED_BUILTIN, HIGH);
   delay(2000);
   digitalWrite(LED_BUILTIN, LOW);
